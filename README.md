@@ -10,6 +10,8 @@ Thailand's Unique Wildlife AI 🦏🌿
 
 Welcome to **BeloveThaiAI**! 🚀 This project is all about building an AI-powered model for **detecting and tracking the behavior and location** of Thailand's unique wildlife 🐒. Our mission? To use cutting-edge tech to monitor, analyze, and protect the incredible animals that call Thailand home. 🐅🌱
 
+![](img/BeloveThaiAI_01.jpg)
+
 ## 🌟 Our Vision 🌟
 
 Thailand is rich in biodiversity, and we believe it's crucial to harness AI to help protect and understand its endemic species 🦏. With **BeloveThaiAI**, we aim to track animal behavior and location in real-time using **AI**, providing essential data to help **conserve** and **celebrate** Thailand’s unique wildlife! 🌿
@@ -19,6 +21,8 @@ Thailand is rich in biodiversity, and we believe it's crucial to harness AI to h
 - **Lo**cation with 🌍  
 - **Ve**rification of ✅  
 - Thailand's Unique Wildlife AI 🦏🌿
+
+![](img/BeloveThaiAI_02.jpg)
 
 ### 🛠️ Key Features of the AI Model 🛠️
 - **Behavior Detection:** 🎥 Using ML algorithms to analyze footage and detect animal behaviors like feeding, mating, migration, and more. 👀  
