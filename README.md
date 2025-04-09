@@ -117,6 +117,7 @@ A passionate mix of AI researchers, conservationists, and developers who believe
 - 🦁 Thai Wildlife Info: [thezootravel.com](https://thezootravel.com)  
 - 📊 Dataset sources: [Kaggle Datasets](https://www.kaggle.com/datasets)  
 - 🔥 Framework: [PyTorch](https://pytorch.org/)  
+- 🐶 Moodeng Logo: [Moodeng Logo](https://www.reddit.com/r/moodeng/comments/1gmy9x3/the_zoo_has_announced_the_official_moodeng_logo/?tl=th)
 
 ---
 
