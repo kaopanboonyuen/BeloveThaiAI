@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeloveThaiAI - AI for Thailand's Unique Wildlife</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Favicon as a dog emoji -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Ctext x='0' y='24' font-family='Arial' font-size='24' fill='%23FF0000'%3E%F0%9F%90%B6%3C/text%3E%3C/svg%3E" type="image/svg+xml">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(to right, #47a7f5, #42a1f5);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            animation: fadeIn 2s ease-out;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        header p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 30px;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        section .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        section .content div {
+            width: 45%;
+            margin: 10px 0;
+        }
+
+        section img {
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        section img:hover {
+            transform: scale(1.05);
+        }
+
+        .feature, .usecase {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover, .usecase:hover {
+            transform: translateY(-10px);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .author {
+            font-size: 1.1em;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .acronym-breakdown {
+            font-size: 1.2em;
+            font-weight: 500;
+            color: #555;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .acronym-breakdown span {
+            font-weight: 600;
+            color: #42a1f5;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .logos img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s ease;
+        }
+
+        .logos img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>BeloveThaiAI</h1>
+            <h2>AI for Detecting Behavior and Location of Thailand's Unique Wildlife</h2>
+            <p>Promoting Conservation and Understanding of Animals in Their Homeland 🌿🐅</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <!-- Logos Section with Font Awesome Icons -->
+            <div class="logos">
+                <a href="https://kaopanboonyuen.github.io/" target="_blank"><i class="fas fa-house"></i></a>
+                <a href="https://scholar.google.co.th/citations?user=myy0qDgAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://x.com/kaopanboonyuen" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/kaopanboonyuen" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/teerapong-panboonyuen" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+
+            <h2>Our Vision 🌿</h2>
+            <div class="content">
+                <div>
+                    <p>Thailand is a treasure trove of incredible biodiversity, and we believe it's essential to harness the power of AI to protect and celebrate its unique species. With <strong>BeloveThaiAI</strong>, our goal is to track animal behavior and location in real-time using advanced AI technology. This will provide vital data that helps conserve and celebrate Thailand’s breathtaking wildlife! 🐅🌏</p>
+                    
+                    <!-- New paragraph explaining BeloveThaiAI -->
+                    <p class="acronym-breakdown">
+                        <strong>"BeloveThaiAI"</strong> stands for:
+                        <ul>
+                            <li><strong>Be</strong>havior: Unlocking the mysteries of wildlife behavior through AI 🐒🧠.</li>
+                            <li><strong>Lo</strong>cation: Monitoring animal movements across Thailand's diverse landscapes in real-time 🌍🐾.</li>
+                            <li><strong>Ve</strong>rification: Ensuring the accuracy of our data for trustworthy, impactful insights ✅📊.</li>
+                            <li><strong>Thai</strong>: Embracing and protecting Thailand's rare and remarkable wildlife for future generations 🦋🌳.</li>
+                        </ul>
+                    </p>
+                </div>
+                <div>
+                    <img src="img/BeloveThaiAI_04.png" alt="AI Wildlife">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Key Features of the AI Model</h2>
+            <div class="content">
+                <div class="feature">
+                    <h3>Behavior Detection</h3>
+                    <p>🎥 Using ML algorithms to analyze footage and detect animal behaviors like feeding, mating, migration, and more. 👀</p>
+                </div>
+                <div class="feature">
+                    <h3>Location Tracking</h3>
+                    <p>📍 Integrating geospatial data to track animal movement across Thailand’s diverse landscapes. 🌳</p>
+                </div>
+                <div class="feature">
+                    <h3>Endemic Species Focus</h3>
+                    <p>🦇 The model will focus on Thailand’s 8 endemic mammals, 2 endemic birds, and many reptiles and amphibians! 🦎</p>
+                </div>
+                <div class="feature">
+                    <h3>AI-Powered Data Analytics</h3>
+                    <p>📊 AI will process and analyze massive amounts of data from wildlife cameras and sensors, offering valuable insights into animal behaviors, movements, and habitats. 🔍</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>AI Model Use Cases 🚀</h2>
+            <div class="content">
+                <div class="usecase">
+                    <h3>Wildlife Conservation</h3>
+                    <p>🌍 Our AI model will help track endangered species, identify critical habitats, and detect threats to their survival. 🐾</p>
+                </div>
+                <div class="usecase">
+                    <h3>Human-Animal Interaction</h3>
+                    <p>🤝 Understand how animals interact with their environment, helping humans and wildlife coexist. 🌿</p>
+                </div>
+                <div class="usecase">
+                    <h3>Research & Education</h3>
+                    <p>📚 Providing valuable data to researchers, conservationists, and educators to protect Thailand’s biodiversity! 🧠</p>
+                </div>
+                <div class="usecase">
+                    <h3>Eco-Tourism & Engagement</h3>
+                    <p>🌱 Promote sustainable tourism by leveraging AI to engage visitors with real-time wildlife data, enriching the travel experience. 🦓</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Thailand’s Unique Wildlife: Key Species</h2>
+            <div class="content">
+                <div>
+                    <h3>Endemic Mammals 🐾</h3>
+                    <ul>
+                        <li>Kitti’s Hog-nosed Bat (Craseonycteris thonglongyai) 🦇</li>
+                        <li>Marshall's Leaf-nosed Bat (Rhinolophus marshalli) 🦇</li>
+                        <!-- Add other mammals here -->
+                    </ul>
+                </div>
+                <div>
+                    <h3>Endemic Birds 🦜</h3>
+                    <ul>
+                        <li>Sirindhorn’s White-eyed River-Martin (Pseudochelidon sirintarae) 🐦</li>
+                        <li>Deignan's Babbler (Stachyris rodolphei) 🐦</li>
+                        <!-- Add other birds here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>For more details, visit the <a href="https://moodeng.media.mit.edu/" target="_blank">Moodeng AI Challenge</a></p>
+        <p>🙌 Let’s build a future where AI helps humans reconnect with nature. #BeloveThaiAI 🌱🐾</p>
+    </footer>
+
+</body>
+
+</html>
