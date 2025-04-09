@@ -4,6 +4,9 @@
 - **Ve**rification of ✅  
 Thailand's Unique Wildlife AI 🦏🌿
 
+![](img/BeloveThaiAI_03.png)
+
+
 ## 🦄 AI for Detecting Behavior and Location of Thailand's Unique Wildlife 🐅
 
 ### 🌿 Promoting Conservation and Understanding of Animals in Their Homeland 🌍
@@ -75,8 +78,49 @@ Our model also fosters a deeper **connection** between humans and animals, inspi
 
 For more details about the **Moodeng AI Challenge**, check out the official [Moodeng Media Website](https://moodeng.media.mit.edu/)!
 
-## 🖋️ Stay Tuned for Updates 🚀
+---
 
-We’re just getting started! Keep an eye out for exciting updates as we continue to build and improve **BeloveThaiAI**. Stay tuned for more info, and thanks for being part of the journey to protect Thailand’s wildlife! 🌿
+## 🧠 Our AI Model Idea
 
-Let’s make a difference! 🌍❤️
+We're building a **Transformer-based neural architecture** that can:
+
+- 🔍 **Detect and classify** endemic Thai species from image/video input  
+- 🧭 **Tag locations** and patterns to monitor habitat and migration  
+- 🎥 **Understand behaviors** (feeding, moving, interactions)  
+- 🛠️ Be deployed for **education**, **conservation**, and **eco-tourism**
+
+Built with:
+- PyTorch + HuggingFace/timm  
+- Vision Transformer (ViT) / Swin / DeiT / BEiT  
+- Optional multi-modal (image + GPS data) extensions  
+- Expandable to real-time inference on mobile or camera traps
+
+---
+
+## 💡 How It Works (Simplified)
+```text
+📷 Image Input → ViT Backbone → Feature Encoding →
+🧠 Behavior & Species Head → 🧭 Location Mapping →
+📊 Output: Class, Confidence, Location, Behavior
+```
+
+---
+
+## 🚀 Who We Are
+We're **Team BeloveThaiAI** 💚  
+A passionate mix of AI researchers, conservationists, and developers who believe **wildlife deserves a voice powered by AI.**
+
+---
+
+## 📚 References
+
+- 🦁 Thai Wildlife Info: [thezootravel.com](https://thezootravel.com)  
+- 📊 Dataset sources: [Kaggle Datasets](https://www.kaggle.com/datasets)  
+- 🔥 Framework: [PyTorch](https://pytorch.org/)  
+
+---
+
+> 🙌 Let’s build a future where **AI helps humans reconnect with nature**.  
+> #BeloveThaiAI 🌱🐾
+
+---
