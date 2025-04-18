@@ -122,6 +122,6 @@ A passionate mix of AI researchers, conservationists, and developers who believe
 ---
 
 > 🙌 Let’s build a future where **AI helps humans reconnect with nature**.  
-> #BeloveThaiAI 🌱🐾
+> #BeloveThaiAI 🌱🐾🐷
 
 ---
